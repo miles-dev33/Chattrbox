@@ -1,0 +1,25 @@
+{
+  "name": "chattrbox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "^2.2.0",
+    "node": "^9.9.0",
+    "nodemon": "^1.9.1",
+    "websocket": "^1.0.25",
+    "ws": "^5.1.0",
+    "wscat": "^2.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
